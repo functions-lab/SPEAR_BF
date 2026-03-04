@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER hw_trigger_dma
+	OPTION supported_peripherals = (hw_trigger_dma);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = hw_trigger_dma;
+END DRIVER
